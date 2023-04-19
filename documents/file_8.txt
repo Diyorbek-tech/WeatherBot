@@ -1,0 +1,28 @@
+1.requirements
+	pipenv lock -r > requirements.txt
+
+2.serverga ulanish ssh
+	ssh ni o`rnatish  install openssh windows
+	ssh -i "C:\\ file.pem" ubuntu@31.31.3.12
+	serverni yangilash
+		sudo apt-get update
+	sudo apt install pip3
+
+3.WinScp
+4.Filelarni serverga yuklash
+	1)scp -i C:\\file.pem -r dirpath ubuntu@ip:/home/ubuntu
+5.
+	pip install -r requirements.txt
+6.bot.conf
+	scp -i C:\\file.pem -r bot.conf
+7.autorun
+	sudo apt-get install supervisor -y
+	sudo cp bot.conf /etc/supervisor/conf.d/bot.conf
+        sudo supervisorctl reread
+	sudo supervisorctl update
+	sudo supervisorctl restart name
+	
+	
+
+	
+
